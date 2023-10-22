@@ -7,12 +7,12 @@
     <title>Pranav Rao</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div class="landingscreen" id="home">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="#home">
                     Pranav <span>Rao</span>
@@ -31,42 +31,46 @@
                 </div>
             </div>
         </nav>
-        <div class="leftcontentls">
-            <p>Hello I'm</p>
-            <p>Pranav Rao</p>
+        <div class="row lscontent">
+            <div class="col-lg-6 col-md-12 col-sm-12 leftcontentls">
+                <p class="helloim">Hello I'm</p>
+                <p class="pranavrao">Pranav Rao</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 rightcontentls">
+                <img src="images/selfie.png" alt="">
+            </div>
         </div>
-        <div class="rightcontentls"></div>
     </div>
-    <p>Interests</p>
-    <div class="interests">
-        <div class="interesttab">
+    <p class="weirdbox" id="interests">Interests</p>
+    <div class="row interests">
+        <div class="col-lg-5 col-md-5 col-sm-12 interesttab">
             <div class="interesttabtitle">WEB DEVELOPMENT</div>
-            <div class="interesttabicon"></div>
+            <div class="interesttabicon"><i class="fa-brands fa-react fa-9x" style="color: #ffffff;"></i></div>
             <div class="interesttabtext">I'm passionate about crafting the digital world through web development, and I
                 specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and
                 user-friendly websites that not only look great but also deliver exceptional user experiences. From
                 front-end design to back-end functionality, I'm constantly exploring the ever-evolving world of web
                 technologies to create meaningful online solutions.</div>
         </div>
-        <div class="interesttab">
+        <div class="col-lg-5 col-md-5 col-sm-12 interesttab">
             <div class="interesttabtitle">COMPETITIVE PROGRAMMING</div>
-            <div class="interesttabicon"></div>
+            <div class="interesttabicon"><i class="fa-solid fa-laptop fa-9x" style="color: #ffffff;"></i></div>
             <div class="interesttabtext">I thrive on the challenge of Competitive Programming. Solving complex
                 algorithmic problems, optimizing code for efficiency, conquering coding competitions, and contributing
                 to open-source projects are not just hobbies; they're a passion. I enjoy the intellectual rigor and the
                 continuous learning involved in mastering data structures and algorithms.</div>
         </div>
-        <div class="interesttab">
+        <div class="col-lg-5 col-md-5 col-sm-12 interesttab">
             <div class="interesttabtitle">APP DEVELOPMENT</div>
-            <div class="interesttabicon"></div>
+            <div class="interesttabicon"><i class="fa-solid fa-mobile fa-9x" style="color: #ffffff;"></i></div>
             <div class="interesttabtext">I'm enthusiastic about mobile app development with a strong focus on Flutter
                 and Dart. I love creating cross-platform, visually appealing applications that offer seamless
                 experiences. The Flutter framework's flexibility and Dart's power empower me to bring innovative app
                 ideas to life, reaching a broad audience on both Android and iOS platforms.</div>
         </div>
-        <div class="interesttab">
+        <div class="col-lg-5 col-md-5 col-sm-12 interesttab">
             <div class="interesttabtitle">UI/UX DESIGN</div>
-            <div class="interesttabicon"></div>
+            <div class="interesttabicon"><i class="fa-solid fa-layer-group fa-9x" style="color: #ffffff;"></i></div>
             <div class="interesttabtext">I'm fascinated by the art and science of User Interface (UI) and User
                 Experience (UX) design. Even though not an expert in this field, im highly interested to learn more.
                 Crafting visually appealing and user-centered interfaces is my passion. I believe in the power of
@@ -74,7 +78,7 @@
                 but also highly usable and enjoyable for users.</div>
         </div>
     </div>
-    <p>Interests</p>
+    <p>Projects</p>
     <div class="projects">
         <div class="projecttab">
             <div class="projecttabtitle">Wheel-E</div>
@@ -180,6 +184,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05b867acb2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

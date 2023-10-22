@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bgdarkgray: #2d2d39;
+    --bglightgray: #363543;
+    --lightergray: #636073;
+    --golden: #eeb639;
+    --yellow: #ffe500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.landingscreen{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    background-color: var(--bglightgray);
+    color: white;
+    font-size: 1.4rem;
+    padding: 10rem 5.5rem;
+    min-height: 100vh;
+    max-height: 200vh;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    font-weight: bold;
+    color: white;
+    background-color: var(--bglightgray);
+    padding: 2rem 5rem;
+    margin: 0 0 2rem 0;
+}
+
+.navbar:hover{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+    font-weight: normal;
+    margin: 0 1rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navlink:active{
+    color: white;
+}
+
+.landingscreen .logo{
+    color:white;
+}
+
+.landingscreen .logo span{
+    color: var(--golden);
+}
+
+.navbar-toggler-icon{
+    color: var(--golden);
+    border: none;
+}
+
+.rightbar{
+    display: flex;
+    justify-content: end;
+}
+
+.lscontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.leftcontentls{
+    /* background-color: red; */
+}
+
+.leftcontentls .helloim{
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.leftcontentls .pranavrao{
+    font-size: 7rem;
+    font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.rightcontentls{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+    padding: 0 5rem;
+}
+
+.rightcontentls img{
+    width: 25rem;
+    border-radius: 100%;
+}
+
+.weirdbox{
+    background-color: var(--lightergray);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.interests{
+    background-color: var(--bgdarkgray);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.interesttab{
+    background-color: var(--bglightgray);
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem 3rem 1rem;
+}
+
+.interesttab .interesttabtitle{
+    font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
+    color: var(--golden);
+    font-size: 2rem;
+}
+
+.interesttab .interesttabicon{
+    margin: 1rem 0;
+}
+
+.interesttab .interesttabtext{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .landingscreen{
+        padding: 10rem 2rem;
+    }
+
+    .navbar{
+        padding: 2rem;
+    }
+
+    .leftcontentls .pranavrao{
+        font-size: 5rem;
+    }
+
+    .leftcontentls .helloim{
+        font-size: 3rem;
+    }
+
+    .leftcontentls{
+        margin: 10rem 0;
+    }
+
+    .rightcontentls img{
+        width: 15rem;
+    }
+
+    .interests{
+        padding: 2rem;
+    }
+
+    .interesttab{
+        padding: 1rem;
+    }
+    
+}
